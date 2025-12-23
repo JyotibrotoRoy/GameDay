@@ -88,7 +88,7 @@ public class LogService {
         long freeMem = Runtime.getRuntime().freeMemory();
         long usedMem = totalMem - freeMem;
 
-        response.put("Used Memory", usedMem);
+        response.put("UsedMemory", usedMem);
 
         return response;
     }
